@@ -1,0 +1,7 @@
+function abrirEnvio() {
+
+}
+
+function abrirImagem() {
+    
+}
