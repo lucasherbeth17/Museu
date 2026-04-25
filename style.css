@@ -1,0 +1,19 @@
+:root {
+    --azul1: #014399;
+    --azul2: #004298;
+    --branco:#FFFFFF;
+    --cinza: #F4F6F8;
+    --preto: #111111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cinza);
+    color: var(--preto);
+}
