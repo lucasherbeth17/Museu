@@ -16,8 +16,37 @@
             <a href="#">Sobre</a>
             <a href="#">Galeria</a>
             <a href="#">Contato</a>
-            <button>Contribua</button>
+            <button class="formulario" onclick="abrirEnvio()">Contribua</button>
         </nav>
     </header>
+
+    <main>
+        <section>
+            <div>
+                <h1>Preservando Memórias</h1>
+                <p>Acervo de Fotografias do Tabuleiro do Norte.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Galeria de Fotografias</h2>
+            <div class="galeria">
+                <div onclick="abrirImagem()">
+                <img src="foto1.jpg" alt="Foto 1">
+                </div>
+                <div onclick="abrirImagem()">
+                <img src="foto2.jpg" alt="Foto 2">
+                </div>
+                <div onclick="abrirImagem()">
+                <img src="foto3.jpg" alt="Foto 3">
+                </div>
+                <!-- Mais fotos aqui, sempre ir adicionando -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Museu da Fotográfia de Tabuleiro do Norte. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
