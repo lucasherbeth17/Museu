@@ -17,3 +17,34 @@ body {
     background-color: var(--cinza);
     color: var(--preto);
 }
+
+header {
+    background-color: var(--azul1);
+    color: var(--branco);   
+}
+
+header div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: var(--branco);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+header nav button {
+    background-color: var(--azul2);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}

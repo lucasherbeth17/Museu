@@ -16,7 +16,7 @@
             <a href="#">Sobre</a>
             <a href="#">Galeria</a>
             <a href="#">Contato</a>
-            <button class="formulario" onclick="abrirEnvio()">Contribua</button>
+            <button class="formulario" onclick="openSubmission()">Contribua</button>
         </nav>
     </header>
 
@@ -31,13 +31,13 @@
         <section>
             <h2>Galeria de Fotografias</h2>
             <div class="galeria">
-                <div onclick="abrirImagem()">
+                <div onclick="openImage()">
                 <img src="foto1.jpg" alt="Foto 1">
                 </div>
-                <div onclick="abrirImagem()">
+                <div onclick="openImage()">
                 <img src="foto2.jpg" alt="Foto 2">
                 </div>
-                <div onclick="abrirImagem()">
+                <div onclick="openImage()">
                 <img src="foto3.jpg" alt="Foto 3">
                 </div>
                 <!-- Mais fotos aqui, sempre ir adicionando -->
@@ -47,7 +47,7 @@
 
     <div>
         <div id="#" class="#">
-            <span class="#" onclick="fecharEnvio()">&times;</span>
+            <span class="#" onclick="closeSubmission()">&times;</span>
             <h2>Contribua com o Museu</h2>
             <p>Envie sua fotografia histórica para ser adicionada ao acervo do museu. </p>
             <iframe 
@@ -57,7 +57,7 @@
     </div>
 
     <div id="#" class="#">
-        <span class="#" onclick="fecharImagem()">&times;</span>
+        <span class="#" onclick="closeImage()">&times;</span>
         <img class="#" id="#" alt="#">
     </div>
 

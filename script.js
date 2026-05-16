@@ -1,15 +1,15 @@
-function abrirEnvio() {
+function openSubmission() {
 
 }
 
-function fecharEnvio() {
+function closeSubmission() {
 
 }
 
-function abrirImagem() {
+function openImage() {
 
 }
 
-function fecharImagem() {
+function closeImage() {
     
 }
