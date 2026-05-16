@@ -48,3 +48,23 @@ header nav button {
     cursor: pointer;
     font-weight: 500;
 }
+
+section.intro {
+    background-color: lightgray;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section.galeria {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: var(--azul1);
+    color: var(--branco);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
