@@ -1,0 +1,7 @@
+function openImage() {
+
+}
+
+function closeImage() {
+    
+}
